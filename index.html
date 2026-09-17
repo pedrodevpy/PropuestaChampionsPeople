@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO básico -->
+  <title>Champions People | Reserva tu cancha de fútbol en Cúcuta por WhatsApp</title>
+  <meta name="description" content="Canchas de fútbol 7 vs 7 y 6 vs 6, zonas VIP con aire acondicionado y bar en Cúcuta. Consulta disponibilidad y reserva tu cancha en minutos por WhatsApp." />
+  <meta name="theme-color" content="#060d24" />
+  <link rel="canonical" href="https://www.championspeople.com/" />
+
+  <!-- Open Graph / redes sociales -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Champions People | Canchas de fútbol en Cúcuta" />
+  <meta property="og:description" content="Reserva tu cancha, zona VIP o evento directamente por WhatsApp. Rápido, sencillo y sin registros." />
+  <meta property="og:image" content="img/hero-jugador.png" />
+  <meta property="og:url" content="https://www.championspeople.com/" />
+  <meta property="og:locale" content="es_CO" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="img/logo.jpg" type="image/jpeg" />
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="Champions People - Inicio">
+        <img src="img/logo.jpg" alt="" class="brand__logo" width="44" height="44" />
+        <span class="brand__name" data-bind="name">Champions People</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li><a href="#galeria" class="nav__link">Galería</a></li>
+          <li><a href="#como-funciona" class="nav__link">Cómo funciona</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+        <a href="#reservar" class="btn btn--primary nav__cta">Reservar ahora</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__glow hero__glow--1"></span>
+        <span class="hero__glow hero__glow--2"></span>
+        <span class="hero__lines"></span>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="eyebrow reveal">
+            <span class="eyebrow__dot"></span>
+            Canchas sintéticas en <span data-bind="city">Cúcuta</span>
+          </span>
+          <h1 class="hero__title reveal">
+            Reserva tu cancha <span class="text-accent">en minutos</span>, directo por WhatsApp
+          </h1>
+          <p class="hero__subtitle reveal">
+            Canchas de fútbol 7 vs 7 y 6 vs 6, zonas VIP con aire acondicionado y bar.
+            Consulta disponibilidad y agenda tu partido sin registros ni llamadas.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#reservar" class="btn btn--primary btn--lg">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              Reservar por WhatsApp
+            </a>
+            <a href="#servicios" class="btn btn--ghost btn--lg">Ver servicios</a>
+          </div>
+
+          <ul class="hero__badges reveal" aria-label="Beneficios">
+            <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolt"/></svg> Respuesta rápida</li>
+            <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shield"/></svg> Sin registro</li>
+            <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"/></svg> Instalaciones premium</li>
+          </ul>
+        </div>
+
+        <div class="hero__media reveal">
+          <div class="hero__image-wrap">
+            <img src="img/hero-jugador.png" alt="Jugador con uniforme de Champions People pateando un balón" class="hero__image" width="685" height="856" fetchpriority="high" />
+          </div>
+          <div class="hero__card hero__card--top">
+            <span class="hero__card-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-field"/></svg></span>
+            <div>
+              <strong>7 vs 7 · 6 vs 6</strong>
+              <small>Grama sintética profesional</small>
+            </div>
+          </div>
+          <div class="hero__card hero__card--bottom">
+            <span class="hero__card-icon hero__card-icon--green"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg></span>
+            <div>
+              <strong>Reserva confirmada</strong>
+              <small>Te respondemos por WhatsApp</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONFIANZA ===================== -->
+    <section class="trust" aria-label="Por qué elegirnos">
+      <div class="container">
+        <ul class="trust__grid">
+          <li class="trust__item reveal">
+            <span class="trust__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolt"/></svg></span>
+            <h3>Atención rápida</h3>
+            <p>Respondemos tu solicitud por WhatsApp para confirmar tu horario cuanto antes.</p>
+          </li>
+          <li class="trust__item reveal">
+            <span class="trust__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-calendar"/></svg></span>
+            <h3>Reserva sencilla</h3>
+            <p>Sin cuentas ni formularios eternos. Completa tus datos y listo.</p>
+          </li>
+          <li class="trust__item reveal">
+            <span class="trust__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"/></svg></span>
+            <h3>Servicio de calidad</h3>
+            <p>Canchas iluminadas, zonas climatizadas y un bar para el tercer tiempo.</p>
+          </li>
+          <li class="trust__item reveal">
+            <span class="trust__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-users"/></svg></span>
+            <h3>Atención personalizada</h3>
+            <p>Te ayudamos a organizar partidos, torneos, cumpleaños y eventos.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICIOS ===================== -->
+    <section class="section services" id="servicios">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="section__kicker">Servicios</span>
+          <h2 class="section__title">Todo lo que necesitas para <span class="text-accent">llevar tu juego a otro nivel</span></h2>
+          <p class="section__lead">Elige el servicio, reserva por WhatsApp y nosotros nos encargamos del resto.</p>
+        </header>
+
+        <!-- Las tarjetas se generan desde js/config.js -->
+        <div class="services__grid" id="servicesGrid"></div>
+
+        <!-- Banner de descuento (BUSINESS.membership en js/config.js) -->
+        <aside class="promo reveal" id="membershipBanner">
+          <span class="promo__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-heart"/></svg></span>
+          <div class="promo__body">
+            <h3 class="promo__title"></h3>
+            <p class="promo__text"></p>
+          </div>
+          <a href="#reservar" class="btn btn--dark promo__btn" data-member-cta>Reservar con descuento</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== CÓMO FUNCIONA ===================== -->
+    <section class="section steps" id="como-funciona">
+      <div class="container">
+        <header class="section__header section__header--light reveal">
+          <span class="section__kicker">¿Cómo funciona?</span>
+          <h2 class="section__title">Reservar es <span class="text-accent">así de fácil</span></h2>
+          <p class="section__lead">Cuatro pasos y tu cancha queda solicitada. Sin registros, sin llamadas.</p>
+        </header>
+
+        <ol class="steps__list">
+          <li class="step reveal">
+            <span class="step__number">01</span>
+            <span class="step__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-field"/></svg></span>
+            <h3>Selecciona el servicio</h3>
+            <p>Cancha 7 vs 7, 6 vs 6, zona VIP o bar y comida.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__number">02</span>
+            <span class="step__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-user"/></svg></span>
+            <h3>Completa tus datos</h3>
+            <p>Solo tu nombre y un número de contacto.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__number">03</span>
+            <span class="step__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-calendar"/></svg></span>
+            <h3>Elige fecha y hora</h3>
+            <p>Indica cuándo quieres jugar y cuántas personas vienen.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__number">04</span>
+            <span class="step__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-whatsapp"/></svg></span>
+            <h3>Confirma por WhatsApp</h3>
+            <p>Se abre WhatsApp con tu solicitud lista para enviar.</p>
+          </li>
+        </ol>
+
+        <div class="steps__cta reveal">
+          <a href="#reservar" class="btn btn--primary btn--lg">Empezar mi reserva</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALERÍA ===================== -->
+    <section class="section gallery" id="galeria">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="section__kicker">Galería</span>
+          <h2 class="section__title">Conoce <span class="text-accent">nuestras instalaciones</span></h2>
+          <p class="section__lead">Canchas, zonas VIP y un ambiente diseñado para los amantes del fútbol.</p>
+        </header>
+
+        <!-- Las imágenes se generan desde js/config.js -->
+        <div class="gallery__grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIOS ===================== -->
+    <section class="section testimonials" id="testimonios" aria-label="Opiniones de clientes">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="section__kicker">Opiniones</span>
+          <h2 class="section__title">Lo que dicen <span class="text-accent">nuestros jugadores</span></h2>
+          <p class="section__lead section__lead--note">Testimonios de ejemplo (contenido demo): se reemplazarán por reseñas reales.</p>
+        </header>
+        <div class="testimonials__grid" id="testimonialsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== RESERVA ===================== -->
+    <section class="section booking" id="reservar">
+      <div class="container booking__inner">
+        <div class="booking__intro reveal">
+          <span class="section__kicker">Reserva</span>
+          <h2 class="section__title">Solicita tu reserva <span class="text-accent">ahora</span></h2>
+          <p class="section__lead">
+            Completa el formulario y se abrirá WhatsApp con tu solicitud lista para enviar.
+            Confirmaremos la disponibilidad contigo por ese mismo chat.
+          </p>
+          <ul class="booking__points">
+            <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> No necesitas crear una cuenta</li>
+            <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Respuesta directa del negocio</li>
+            <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Modifica o cancela por el mismo chat</li>
+          </ul>
+          <div class="booking__direct">
+            <span>¿Prefieres escribir directamente?</span>
+            <a href="#" class="link-accent" data-wa-link>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              <span data-bind="whatsappDisplay">312 846 6630</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="form reveal" id="bookingForm" novalidate>
+          <div class="form__row">
+            <div class="field">
+              <label for="name">Nombre completo <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" placeholder="Ej. Juan Pérez" required minlength="3" />
+              <p class="field__error" id="name-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="phone">Número de teléfono <span aria-hidden="true">*</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="numeric" placeholder="Ej. 3001234567" required />
+              <p class="field__error" id="phone-error" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="service">Servicio <span aria-hidden="true">*</span></label>
+            <div class="select-wrap">
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Selecciona un servicio</option>
+              </select>
+            </div>
+            <p class="field__error" id="service-error" aria-live="polite"></p>
+          </div>
+
+          <div class="form__row form__row--3">
+            <div class="field">
+              <label for="date">Fecha <span aria-hidden="true">*</span></label>
+              <input type="date" id="date" name="date" required />
+              <p class="field__error" id="date-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="time">Hora <span aria-hidden="true">*</span></label>
+              <div class="select-wrap">
+                <select id="time" name="time" required>
+                  <option value="" disabled selected>Elige la hora</option>
+                </select>
+              </div>
+              <p class="field__error" id="time-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="people">Personas</label>
+              <input type="number" id="people" name="people" min="1" inputmode="numeric" placeholder="Ej. 10" />
+              <p class="field__error" id="people-error" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <div class="field field--check" id="membershipField">
+            <label for="member" class="check">
+              <input type="checkbox" id="member" name="member" />
+              <span></span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label for="comments">Comentarios o información adicional</label>
+            <textarea id="comments" name="comments" rows="3" maxlength="400" placeholder="Ej. Quisiera reservar durante 2 horas."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--lg btn--block" id="submitBtn">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            <span>Solicitar reserva</span>
+          </button>
+
+          <p class="form__hint">Al enviar se abrirá WhatsApp con tu mensaje. No compartimos tus datos con terceros.</p>
+
+          <div class="form__success" id="formSuccess" role="status" aria-live="polite" hidden>
+            <span class="form__success-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg></span>
+            <div>
+              <strong>¡Tu solicitud está lista!</strong>
+              <p>Se abrió WhatsApp con el mensaje. Si no se abrió automáticamente, <a href="#" id="successLink" target="_blank" rel="noopener">haz clic aquí</a>.</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section class="section contact" id="contacto">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="section__kicker">Contacto</span>
+          <h2 class="section__title">Estamos <span class="text-accent">cerca de ti</span></h2>
+          <p class="section__lead">Ven a conocernos o escríbenos. Te esperamos.</p>
+        </header>
+
+        <div class="contact__grid">
+          <div class="contact__cards reveal">
+            <article class="contact__card">
+              <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg></span>
+              <div>
+                <h3>Dirección</h3>
+                <p><span data-bind="address">Cl. 5 Nte. #3E-47, Ceiba II</span><br /><span data-bind="addressCity">Cúcuta, Norte de Santander</span></p>
+                <a href="#" class="link-accent" data-maps-link target="_blank" rel="noopener">Cómo llegar →</a>
+              </div>
+            </article>
+
+            <article class="contact__card">
+              <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg></span>
+              <div>
+                <h3>Teléfono y WhatsApp</h3>
+                <p><a href="#" data-tel-link data-bind="phoneDisplay">312 846 6630</a></p>
+                <a href="#" class="link-accent" data-wa-link target="_blank" rel="noopener">Escribir por WhatsApp →</a>
+              </div>
+            </article>
+
+            <article class="contact__card">
+              <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clock"/></svg></span>
+              <div>
+                <h3>Horarios de atención</h3>
+                <ul class="hours" id="hoursList"></ul>
+              </div>
+            </article>
+
+            <article class="contact__card">
+              <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-heart"/></svg></span>
+              <div>
+                <h3>Síguenos</h3>
+                <div class="social" id="contactSocial"></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="contact__map reveal">
+            <!-- Mapa de Google Maps embebido. Se genera desde BUSINESS.mapsQuery en js/config.js -->
+            <iframe id="mapFrame" title="Ubicación de Champions People en Google Maps" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#inicio" class="brand">
+            <img src="img/logo.jpg" alt="" class="brand__logo" width="44" height="44" />
+            <span class="brand__name" data-bind="name">Champions People</span>
+          </a>
+          <p>Canchas de fútbol sintéticas, zonas VIP climatizadas y bar en Cúcuta. Reserva fácil y rápido por WhatsApp.</p>
+          <div class="social" id="footerSocial"></div>
+        </div>
+
+        <nav class="footer__col" aria-label="Enlaces del sitio">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#como-funciona">Cómo funciona</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><span data-bind="address">Cl. 5 Nte. #3E-47, Ceiba II</span>, <span data-bind="city">Cúcuta</span></li>
+            <li><a href="#" data-tel-link data-bind="phoneDisplay">312 846 6630</a></li>
+            <li><a href="#" data-wa-link target="_blank" rel="noopener">WhatsApp: <span data-bind="whatsappDisplay">312 846 6630</span></a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__cta">
+          <h4>¿Listo para jugar?</h4>
+          <p>Solicita tu cancha en menos de un minuto.</p>
+          <a href="#reservar" class="btn btn--primary">Reservar ahora</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> <span data-bind="name">Champions People</span>. Todos los derechos reservados.</p>
+        <a href="privacidad.html">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== BOTÓN FLOTANTE WHATSAPP ===================== -->
+  <a href="#" class="wa-float" data-wa-link target="_blank" rel="noopener" aria-label="Chatear por WhatsApp">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+    <span class="wa-float__label">¿Dudas? Escríbenos</span>
+  </a>
+
+  <!-- ===================== ICONOS SVG (sprite) ===================== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.91-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.89 9.88M20.46 3.52A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.33.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.33 11.89-11.89 0-3.18-1.24-6.16-3.48-8.41"/></symbol>
+    <symbol id="i-field" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 6h18v12H3zM12 6v12M12 12a2.5 2.5 0 1 0 0-.01M3 9h3v6H3M21 9h-3v6h3"/></symbol>
+    <symbol id="i-vip" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 11V8a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v3M3 13a2 2 0 0 1 4 0v2h10v-2a2 2 0 0 1 4 0v5H3zM7 18v2M17 18v2"/></symbol>
+    <symbol id="i-food" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 11h16M4 11a8 8 0 0 1 16 0M3 14h18M5 17h14a2 2 0 0 1-2 3H7a2 2 0 0 1-2-3z"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0zM7 6H4a3 3 0 0 0 3 5M17 6h3a3 3 0 0 1-3 5"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5zM9 12l2 2 4-4"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2 3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="m5 12 5 5L20 7"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16v14H4zM4 10h16M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12zM12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20M12 6v6l4 2"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zM12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8M17.5 6.5h.01"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M15 3v9.5a3.5 3.5 0 1 1-3.5-3.5M15 3a5 5 0 0 0 5 5"/></symbol>
+  </svg>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
