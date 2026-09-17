@@ -3,9 +3,10 @@
   "configurations": [
     {
       "name": "landing",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "5500"],
-      "port": 5500
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "python -m http.server %PORT%"],
+      "port": 5500,
+      "autoPort": true
     }
   ]
 }
